@@ -11,7 +11,7 @@ from os import X_OK, access, geteuid, path
 from re import IGNORECASE, match, search
 from re import split as rsplit
 from subprocess import PIPE, Popen
-from sys import exit, version  # pylint: disable=redefined-builtin
+from sys import exit  # pylint: disable=redefined-builtin
 
 VERSION: str = '2023-0727-0946'
 
